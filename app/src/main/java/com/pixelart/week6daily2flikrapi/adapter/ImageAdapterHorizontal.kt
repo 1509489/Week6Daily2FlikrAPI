@@ -13,7 +13,7 @@ import kotlinx.android.synthetic.main.image_adapter_layout_horizontal.view.*
 
 class ImageAdapterHorizontal(private val photoData: List<PhotoData>):
     RecyclerView.Adapter<ImageAdapterHorizontal.ViewHolder> (){
-    
+
     private lateinit var context: Context
     override fun onCreateViewHolder(viewGroup: ViewGroup, p1: Int): ViewHolder {
         context = viewGroup.context
